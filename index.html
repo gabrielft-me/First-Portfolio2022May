@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel's Portfolio</title>
+    <link rel="stylesheet" href="CSS/MainCss.css">
+    <link rel="icon" type="image/x-icon" href="Images/G-logo.png">
+    <script src="https://kit.fontawesome.com/11795badfd.js" crossorigin="anonymous"></script>
+</head>
+
+<body> 
+    <section id="first_page" class="first_page page">  
+        <div class="going_top"><a href="#first_page"> <i class="fa-solid fa-arrow-up"></i></a></div>
+        <header>
+            <img class="logo" src="Images/G-logo.png" onclick="openPopup(null,'navigation_menu')" alt="">
+
+            <div id="navigation_menu" class="navigation">
+                <ul class="principal">
+                    <div class="popup-heading">
+                        <div class="lines"></div>
+                        <div class="button" onclick="closePopup('navigation_menu')"></div>
+                    </div>
+                    
+                    <li><a href="#second_page" href="" onclick="closePopup('menu')"><i class="fa-solid fa-address-card"></i> About_Me</a></li>
+                    <li><a href="#third_page" href="" onclick="closePopup('menu')"><i class="fa-solid fa-lightbulb"></i> My_Creations</a></li>
+                    <li><a href="#fourth_page" href="" onclick="closePopup('menu')"><i class="fa-solid fa-briefcase"></i> Maker Portfolio</a></li>
+                    <li><a href="#fifth_page" href="" onclick="closePopup('menu')"><i class="fa-solid fa-envelope"></i> Get_in_Touch</a></li>
+                    <li><a class="language_button" onclick="openPopup(null,'language')" >Language</a></li>
+                </ul>
+                
+                <ul class="language" id="language">
+                    <li class="en-US"><a style="opacity: 1;">🇺🇸</a></li>
+                    <li class="fr-CA"><a style="opacity: 0.3;" href="HTML/french.html">🇫🇷</a></li>
+                    <li class="pt-BR"><a style="opacity: 0.3;" href="HTML/portuguese.html">🇧🇷</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <div class="description">
+            <p>Front-End Junior </p>
+            <p>Social Entrepreneur</p>
+            <p>Academic Researcher</p>
+            <h1>Hi, I am Gabriel Fagundes</h1>  
+
+            <div class="social_media">
+                <a href="https://www.linkedin.com/in/gabriel-f-1432261b0/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/GabrielFagundst" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="PDF/Gabriel Fagundes Teixeira.pdf" download target="_blank"><i class="fa-solid fa-file-pdf"></i></a>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="second_page" class="second_page page">
+        
+        <div class="about_me">
+            <div class="image-container">
+                <img src="Images/personal_photo.jpg" width="450px" alt="">
+            </div>
+
+            <div class="paragraphs">
+                <h1>About Me</h1>
+                
+                <p>I first saw a PC 34 years after its earliest release. Being far from the epicenter of inovations not only delayed the arrival of inventions, but also knowledge. However, when the computer came, I tryed to use it as best as possible: I descovered google and youtube – two fantastic teachers. This ignited a passionate enthusiasm, propelling me towards further explorations in the realm of technology.
+                </p>
+                <p>After years fueled by this inherent passion, I have made the decision to showcase the transformative power of the talents shown here in creating a unique team, in order to develop innovative products and services. That's why I'm here: venturing into the job market as a web developer to turn my passion into impact.
+                </p>
+                <p> Since December 2022, I've been gaining practical experience in <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and <strong>ReactJS</strong> by creating professional websites – detailed on the following page. Through diligent employment of advanced study methods such as active recall and spaced repetition, I've rapidly enhanced my technical knowledge. And, just as I swiftly mastered <strong>frontend development</strong> in some months, I am currently expanding my proficiency in <strong>NodeJS</strong> and <strong>SQL</strong> to create powerful applications across all stacks of the web.</p>
+            </div>
+            <div class="my_history">
+                <h2>My inner motivations:</h2>
+                <div class="my_skills">
+                    <div class="container" onclick="openPopup(this,'popup00')" >
+                       <p>Circuit Prototyping</p>
+                    </div>
+                    <div class="container" onclick="openPopup(this,'popup02')">
+                        <p>Web Development</p>
+                    </div>
+                    <div class="container" onclick="openPopup(this,'popup01')">
+                        <p>Game Development</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <!--==============================================Arduino Popup==============================================-->
+        <div class="popup" id="popup00"> 
+            <div class="popup-heading">
+                <div class="lines"></div>
+                <h1>Prototypes</h1>
+                <div class="button" onclick="closePopup('popup00')"></div>
+            </div>
+
+            <h2>What led me to become an inventor?</h2>
+    
+            <p> I wholeheartedly embrace a life philosophy centered on manifesting the future in the present. I strongly believe that it's a effective way to create a meaningful social impact, which aligns perfectly with my deep passion for driving positive change in society.</p>
+            <p>It was back in 2018 when I stumbled upon Arduino, and its potential immediately captivated me. Developing prototypes quickly became a beloved habit as I created efficient day-to-day solutions, aiming to find ingenious answers to various social problems. I undertook diverse projects, ranging from automated coffee machines to a virtual assistant, which were groundbreaking in my small, untouched town where automation was unheard of. With limited resources, I utilized simulation platforms and dedicated countless hours to developing my ideas. Eventually, my unwavering dedication led me to a project that evolved into scientific research, resulting in a high-level academic publication.</p>
+            <p>
+            In January 2023, I embarked on a diligent study of the book "Practical Electronics for Inventors" by Paul Scherz and Simon Monk. Their remarkable work provided me with a fascinating insight into the realms of computer and electronic engineering. Fueled by this growing passion, I successfully achieved my goal of comprehending the inner workings of computers by recreating two iconic classics from the world of computing that have greatly influenced the way we perceive technology today. These achievements will be discussed shortly.
+            </p>
+        </div>
+
+        <!--===========================================================================================-->
+
+
+        <!--==============================================Games Popup==============================================-->
+        <div class="popup " id="popup01">
+            <div class="popup-heading">
+                <div class="lines"></div>
+                <h1>Games</h1>
+                <div class="button" onclick="closePopup('popup01')"></div>
+            </div>
+
+            <h2>What led me to become a game developer?</h2>
+
+            <p>In 2019, my introduction to game development opened up a whole new world for me. It all began when I stumbled upon a small course that showcased the use of the Java language in game development. As someone who had dabbled in a few games as a kid, this course resonated with me on a deep level. Embracing this opportunity was crucial in establishing a solid foundation for advanced programming concepts such as Abstraction, Inheritance, Encapsulation, and Polymorphism. While typically acquired through formal undergraduate studies, I was able to solidify this knowledge through the practical application of developing my own versions of games. Through the dynamic nature of the course, I not only gained theoretical understanding but also tangible experience in creating captivating games.</p>
+
+        </div>
+        <!--=============================================================================================--> 
+
+
+        <!--==============================================FullStack Popup==============================================-->
+        <div class="popup " id="popup02">
+
+            <div class="popup-heading">
+                <div class="lines"></div>
+                <h1>Web</h1>
+                <div class="button" onclick="closePopup('popup02')"></div>
+            </div>
+            
+            <h2>What led me to become a web developer?</h2>
+           
+            <p>Getting a taste of the social impact through a scientific publication in late 2022, I embarked on a journey to study web programming languages in order to develop more accessible and impactful social solutions compared to automation projects. I began my studies in December 2022 and have been steadily expanding my knowledge and skill set ever since. I ventured into developing small front-end applications last year, and this year I'm well on my way to mastering the tools of the back-end to breathe life into impactful projects.</p>
+            <p>My aim is to assist the public education sector in my country by creating accessible and intuitive resource and teacher management tools. I rely on my unwavering determination to master the finest techniques in order to develop these applications, along with incorporating leadership and entrepreneurship concepts to persuade leaders of the benefits of the digital world. I am fully dedicated to this cause, and the results are just a matter of time!</p>
+
+        </div>
+        <!--=========================================================================================-->
+    </section>
+
+
+    <section id="third_page" class="third_page page">
+
+        
+            <h1>Some Creations</h1>
+            <div class="especialties">  
+
+                <div class="container2">
+                    <i class="fa-solid fa-microchip"></i>
+                    <h2>Prototype Development</h2>
+                    <p> Some of the prototypes and circuits I developed. I recreated computing classics and brought some ideas to life.</p>
+
+                    <div class="projects" onclick="openPopup(this,'popup7')">
+                        <h3>COVID-19 Control Prototype</h3>
+                        <h4>Arduino | R Language | C++</h4>
+                        <p>(2021–2022)</p>
+                    </div>
+
+                    <div class="projects" onclick="openPopup(this,'popup9')">
+                        <h3>Apple-1 Computer (coming soon)</h3>
+                        <h4>Computer Engineering | Assembly | Tons of Studies </h4>
+                        <p>2022– Coming Soon</p>
+                    </div>
+                    <div class="projects" onclick="openPopup(this,'popup8')">
+                        <h3>Turing Machine</h3>
+                        <p>Arduino | Historical Ideas</p>
+                        <p>2021</p>
+                    </div>
+
+                    <button onclick="openPopup(this,'popup10')">see more prototypes</button>
+                </div>
+
+
+                <div class="container2">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Front-End development</h2>
+                    <p>My projects focused on web development, using front-end and back-end languages and some frameworks.</p>
+                    <div class="projects" onclick="openPopup(this,'popup3')">
+                        <h3>School Management System</h3>
+                        <p>HTML | Javascript | NextJS | CSS | Java</p>
+                        <p>Coming Soon</p>
+                    </div>   
+                    <div class="projects" onclick="openPopup(this,'popup2')">
+                        <h3>Supermarket Project</h3>
+                        <p>Javascript | PHP | CSS</p>
+                        <p>Coming Soon</p>
+                    </div>
+                    <div class="projects" onclick="openPopup(this,'popup1')">
+                        <h3>Blender Project</h3>
+                        <p>HTML | CSS | Javascript </p>
+                        <p>2023</p>
+                    </div>
+                </div>
+
+                
+                <div class="container2">
+                    <i class="fa-solid fa-gamepad"></i>
+                    <h2>Game development</h2>
+                    <p>Using the dynamics of existing games as examples, I learned advanced programming concepts by developing the following games.</p>
+                    <div class="projects" onclick="openPopup(this,'popup4')">
+                        <h3>Zelda Clone</h3>
+                        <p>Java</p>
+                        <p>2019</p>
+                    </div>
+                    <div class="projects" onclick="openPopup(this,'popup5')">
+                        <h3>Brick Breaker</h3>
+                        <p>C#</p>
+                        <p>2019</p>
+                    </div>
+                    <div class="projects" onclick="openPopup(this,'popup6')">
+                        <h3>Ping pong</h3>
+                        <p>Java</p>
+                        <p>2019<p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="popup10" class="popup">
+                <div class="popup-heading">
+                    <div class="lines"></div>
+                    <h1>More prototypes</h1> 
+                    <div class="button" onclick="closePopup('popup10')"></div>
+                </div>
+                <div class="popup-navigation">
+                    <a onclick="openTab('tab1','popup10')">Automatic Coffee Machine</a>
+                    <a onclick="openTab('tab2','popup10')">Digital Door Lock</a>
+                    <a onclick="openTab('tab3','popup10')">Ultrasonic Level Sensor</a>
+                    <a onclick="openTab('tab4','popup10')">Auto Tracking Camera</a>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div class="tab alert">
+
+                    <h3>Optimize your viewing experience by positioning your phone horizontally.</h3>
+                    <p>I'm making some changes here, but feel free to click on any of the prototypes you want to see <strong>(above)</strong></p>
+                </div>
+
+                <div class="tab container-iframe inactive" id="tab1">
+                    <h1>Automatic coffee machine</h1>
+                    <iframe class="tinkercad" src="https://www.tinkercad.com/embed/9E1XUdugnv7?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+
+                   
+                    <div class="description_iframe">
+                        <iframe class="youtube" src="https://www.youtube.com/embed/qFHFNGoR8DE" title="Turing Machine, simulation, Tinkercad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; web-share" allowfullscreen></iframe>
+                        <p>I will update this text and explanatory video soon</p>
+                    </div>
+                </div>
+
+                <div class="tab container-iframe inactive" id="tab2">
+                    <h1>Digital Door Lock</h1>
+                    <iframe class="tinkercad" src="https://www.tinkercad.com/embed/c53xMKIiTtw" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+
+                    <div class="description_iframe">
+                        <iframe class="youtube"  src="https://www.youtube.com/embed/qFHFNGoR8DE" title="Placeholder" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; web-share" allowfullscreen></iframe>
+                        <p>I will update this text and explanatory video soon</p>
+                    </div>
+                </div>
+
+
+                <div class="tab container-iframe inactive" id="tab3">
+                    <h1>Ultrasonic Level Sensor 2021</h1>
+                    <iframe class="tinkercad" src="https://www.tinkercad.com/embed/ap2JdcB4i2X?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+
+                    <div class="description_iframe">
+                        <iframe class="youtube" src="https://www.youtube.com/embed/qFHFNGoR8DE" title="Placeholder" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; web-share" allowfullscreen></iframe>
+                        <p>I will update this text and explanatory video soon</p>
+                    </div>
+                </div>
+
+                <div class="tab container-iframe inactive" id="tab4">
+                    <h1>Auto Tracking Camera</h1>
+                    <iframe class="tinkercad" src="https://www.tinkercad.com/embed/f3wduZ47TEH?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+
+                    <div class="description_iframe">
+                        <iframe class="youtube" src="https://www.youtube.com/embed/qFHFNGoR8DE" title="Placeholder" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; web-share" allowfullscreen></iframe>
+                        <p>I will update this text and explanatory video soon</p>
+                    </div>
+                </div>
+            </div>
+
+
+                <div id="popup7" class="popup"> 
+                    <div class="popup-heading">
+                        <div class="lines"></div>
+                        <h1>COVID-19 Control Prototype</h1>
+                        <div class="button" onclick="closePopup('popup7')"></div>
+                    </div>
+                    <div class="popup-navigation">
+                        <a onclick="openTab('tab1','popup7')">General</a>
+                        <a onclick="openTab('tab2','popup7')">See More</a>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <div class="tab popup-information " id="tab1">
+                        <img class="carousel-image current-slide" src="Images/Published_Project/Img01.png" alt="">
+                        
+                        <h2>When my vision led me to national academic excellence</h2> 
+
+                        <p>A revolutionary idea of testing the effectiveness of <strong>automation prototypes</strong> in minimizing indirect contact between individuals <strong>during the pandemics</strong>, by automating manual processes, such as faucets and door handles.</p>
+
+                        <p>I pitched this project to large microbiology companies in search of sponsorship. Studied electrical circuits to bring the ideas to life. Managed talents in a team. Learned from scratch how to construct scientific article. Mastered myself in microbiology and data science to provide a research foundation. Practiced and honed skills in <strong>persuasion</strong>, <strong>leadership</strong>, and <strong>product vision</strong></p>
+                        
+                        <p>At 18, I achieved a scientific publication in a journal with an impact <strong>surpassing 50% of all published research in the field of computer engineering</strong> – comparable to journals ranked within the <strong>Q2 quartile</strong>. I discovered my passion for research and developed intense perseverance in achieving my goals. <a href="https://www.nucleodoconhecimento.com.br/engenharia-da-computacao/proliferacao-de-microrganismos" target="_blank">Link</a> </p>
+                    </div>
+
+                    <div class="tab slide-wrapper inactive" id="tab2">
+                        <ul class="slides-container">
+                            <li class="slide"><img class="carousel-image current-slide" src="Images/Published_Project/Img02.jpg" alt=""></li>
+                            <li class="slide"><img class="carousel-image current-slide" src="Images/Published_Project/Img03.jpg" alt=""></li>
+                            <li class="slide"><img class="carousel-image current-slide" src="Images/Published_Project/Img04.jpg" alt=""></li>
+                            <li class="slide"><img class="carousel-image current-slide" src="Images/Published_Project/Img05.jpg" alt=""></li>
+                            <li class="slide"><img class="carousel-image current-slide" src="Images/Published_Project/Img06.jpg" alt=""></li>
+                            <li class="slide"><img class="carousel-image current-slide" src="Images/Published_Project/Img07.jpg" alt=""></li>
+                            <li class="slide"><img class="carousel-image current-slide" src="Images/Published_Project/Img08.jpg" alt="">
+                            </li>
+                        </ul>
+
+                        <button class="slide-arrow-prev">←</button> 
+                        <button class="slide-arrow-next">→</button>
+                    </div>
+                </div>
+    
+                <div id="popup8" class="popup">
+                    <div class="popup-heading">
+                        <div class="lines"></div>
+                        <h1>Turing Machine</h1>
+                        <div class="button" onclick="closePopup('popup8')"></div>
+                    </div>
+
+                    <div class="popup-navigation">
+                        <a onclick="openTab('tab1','popup8')">General</a>
+                        <a onclick="openTab('tab2','popup8')">See More</a>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <div class="tab popup-information" id="tab1">
+                        <img class="carousel-image current-slide" src="Images/Turing_Machine/turing.png" alt="">
+                        
+                        <h2>Recreation of the very first idea of ​​modern computers</h2> 
+
+                        <p>
+                            Introducing the culmination of countless hours of meticulous <strong>computer engineering expertise</strong> — a groundbreaking achievement in the realm of computation — the Turing Machine Prototype. This cutting-edge device stands as a testament to innovation and technical prowess.</p>
+                            <p>
+                            Every intricate detail has been carefully considered, from the arrangement of the tape and the placement of the read/write head to the intricate mechanics that bring this theoretical concept to tangible reality.
+                            </p>
+                            <p>
+                            This prototype not only pays homage to the visionary work of Alan Turing but also serves as an intense personal desire to contribute to the world of technology. With its thoughtful implementation, this Turing Machine Prototype is poised to become a symbol of innovation and a testament to the endless possibilities that unfold when theory meets craftsmanship.</p>
+                    </div>
+
+                    <div class="tab slide-wrapper inactive" id="tab2">
+                        <ul class="slides-container">
+
+                            <li class="slide"><img class="carousel-image" src="Images/Turing_Machine/Turing1.png"  alt=""></li>
+                            <li class="slide"><img class="carousel-image" src="Images/Turing_Machine/Turing2.png"  alt=""></li>
+                            <li class="slide"><img class="carousel-image" src="Images/Turing_Machine/Turing3.png"  alt=""></li>
+                            <li class="slide"><img class="carousel-image" src="Images/Turing_Machine/Turing4.png"  alt=""></li>
+            
+                        </ul>
+                        <button class="slide-arrow-prev">←</button> 
+                        <button class="slide-arrow-next">→</button>
+                    </div>
+                </div>
+
+                <div id="popup9" class="popup"> 
+                    <div class="popup-heading">
+                        <div class="lines"></div>
+                        <h1>Apple-1</h1>
+                        <div class="button" onclick="closePopup('popup9')"></div>
+                    </div>
+                    <div class="popup-navigation">
+                        <a onclick="openTab('tab1','popup9')">General</a>
+                        <a onclick="openTab('tab2','popup9')">See More</a>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <div class="tab popup-information" id="tab1">
+                        <img class="carousel-image current-slide" src="Images/Apple1/apple_computer_1984_500px.jpg" alt="">
+                        
+                        <p>This prototype is on par with undergraduate theses in computer engineering, and I developed it out of a sheer thirst for knowledge as someone passionate about computers.</p>
+
+                        <p>After immersing myself in countless Apple releases at WWDC, studying the biographies of the most talented engineering minds of our time, and being deeply moved by the impact Apple has had on the world, I wasn't satisfied and I decided to undertake a personal challenge. I set out to recreate the crown jewel of Apple's revolutionary product line: the Macintosh 128K, using the same techniques and principles that the company's brilliant artists used in the original 1981 prototype.</p>
+
+                        <p> Through trial and error, I persevered until I succeeded in producing a concise and elegant prototype, just as Apple had done in 1984. The result of my labor was nothing short of a masterpiece - a tribute to the legacy of Apple and the incredible minds that built it. </p>
+                    </div>
+
+                    <div class="tab slide-wrapper inactive" id="tab2">
+                        <ul class="slides-container">
+                            <li class="slide"><img class="carousel-image current-slide" src="Images/Apple1/mac-logic-schematic.jpg" alt=""></li>
+                        </ul>
+                    </div>
+                </div> 
+
+
+                
+                
+                <div id="popup1" class="popup">
+                    <div class="popup-heading">
+                        <div class="lines"></div>
+                        <h1>Blender Project</h1>
+                        <div class="button" onclick="closePopup('popup1')"></div>
+                    </div>
+
+                    <div class="popup-navigation">
+                        <a >General</a>
+                        <a href="https://blender.gabrielft.me/">Open Website</a>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <div class="popup-information">
+                         <img class="carousel-image current-slide"  src="Images/Blender_Portfolio/Blender.jpg" href="https://blender.gabrielft.me/" alt="">
+                        
+                        <p>This prototype is on par with undergraduate theses in computer engineering, and I developed it out of a sheer thirst for knowledge as someone passionate about computers.</p>
+
+                        <p>After immersing myself in countless Apple releases at WWDC, studying the biographies of the most talented engineering minds of our time, and being deeply moved by the impact Apple has had on the world, I wasn't satisfied and I decided to undertake a personal challenge. I set out to recreate the crown jewel of Apple's revolutionary product line: the Macintosh 128K, using the same techniques and principles that the company's brilliant artists used in the original 1981 prototype.</p>
+
+                        <p> Through trial and error, I persevered until I succeeded in producing a concise and elegant prototype, just as Apple had done in 1984. The result of my labor was nothing short of a masterpiece - a tribute to the legacy of Apple and the incredible minds that built it. </p>
+                    </div>
+                </div>
+
+                <div id="popup2" class="popup">
+                    <div class="popup-heading">
+                        <div class="lines"></div>
+                        <h1>Supermarket Project</h1>
+                        <div class="button" onclick="closePopup('popup2')"></div>
+                    </div>
+                </div>
+
+                <div id="popup3" class="popup"> 
+                    <div class="popup-heading">
+                        <div class="lines"></div>
+                        <h1>School Man. System</h1>
+                        <div class="button" onclick="closePopup('popup3')"></div>
+                    </div>
+
+                    <p>In this project I could make some tests using HTML CSS and Javascript, I learnt many advanced concepts in both languages</p>
+                </div>  
+
+              
+
+
+                <div id="popup4" class="popup">
+                    <div class="popup-heading">
+                        <div class="lines"></div>
+                        <h1>Zelda Clone</h1>
+                        <div class="button" onclick="closePopup('popup4')"></div>
+                    </div>
+                </div>
+    
+                <div id="popup5" class="popup">
+                    <div class="popup-heading">
+                        <div class="lines"></div>
+                        <h1>Brick Breaker</h1>
+                        <div class="button" onclick="closePopup('popup5')"></div>
+                    </div>
+
+                    <div class="popup-navigation">
+                        <a onclick="openTab('tab1','popup5')">General</a>
+                        <a onclick="openTab('tab2','popup5')">See More</a>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <div class="tab popup-information" id="tab1">
+                    <img class="carousel-image current-slide" src="Images/Ping_Pong/ping.png" alt="">
+
+                    <p>During my second month of the programming course, I took on my first Java development challenge. It was a significant step for me, as I delved, for the first time, into object-oriented programming concepts like classes, encapsulation, and abstraction. This project allowed me to grasp the inner workings of game logic.</p>
+                        
+                    <p>I faced the task of creating a collision system that handled object interactions, trajectory calculations, and impact angles. It was a mind-opening experience, pushing me to think how all the functions of the Games are developed.</p>
+                        
+                    <p>Through this project, I put into practice my Java knowledge. It laid a solid foundation for future programming challenges, highlighting my ability to learn and apply new concepts effectively.</p>
+                    </div>
+
+                    <div class="tab slide-wrapper inactive" id="tab2">
+                    </div>
+                </div>
+
+                <div id="popup6" class="popup"> 
+                    <div class="popup-heading">
+                        <div class="lines"></div>
+                        <h1>Ping pong</h1>
+                        <div class="button" onclick="closePopup('popup6')"></div>
+                    </div>
+
+                    <div class="popup-navigation">
+                        <a onclick="openTab('tab1','popup6')">General</a>
+                        <a onclick="openTab('tab2','popup6')">See More</a>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <div class="tab popup-information" id="tab1">
+                    <img class="carousel-image current-slide" src="Images/Ping_Pong/ping.png" alt="">
+
+                    <p>During my second month of the programming course, I took on my first Java development challenge. It was a significant step for me, as I delved, for the first time, into object-oriented programming concepts like classes, encapsulation, and abstraction. This project allowed me to grasp the inner workings of game logic.</p>
+                        
+                    <p>I faced the task of creating a collision system that handled object interactions, trajectory calculations, and impact angles. It was a mind-opening experience, pushing me to think how all the functions of the Games are developed.</p>
+                        
+                    <p>Through this project, I put into practice my Java knowledge. It laid a solid foundation for future programming challenges, highlighting my ability to learn and apply new concepts effectively. </p>
+                    </div>
+
+                    <div class="tab slide-wrapper inactive" id="tab2">
+                    <img src="Images/Ping_Pong/ping_pong.png" alt="">
+                    </div>
+                </div>  
+        </div>
+    </section>
+
+   
+
+
+    <section id="fifth_page" class="fifth_page page">
+       
+        <div class="contact_left">
+            <div class="popup-heading">
+                <div class="lines"></div>
+                <h1>Get In Touch</h1>
+
+            </div>
+            <form name="submit-to-google-sheet" action="#" method="post">
+               
+                <label for="name">Name</label>
+                <input type="text" id="name" name="Name" required>
+            
+                <label for="email">Email</label>
+                <input type="email" id="email" name="Email" required>
+            
+                <label for="message">Message</label>
+                <textarea name="Message" rows="6" required></textarea>
+            
+                <button type="submit">Send Message</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+        <div class="contact_right">
+            <h1>Contact Me</h1>
+            <p>GabrielFagundsT@gmail.com</p>
+            <p>+5577991322163 | +351920205673</p>
+        </div>
+    </section>
+
+
+    <footer>
+        <p>Copyright ©. From a <strong>tech lover</strong> to the World Wide Web</p>
+        <p>Built from scratch by me.</p>
+        <img src="Images/Gabriel_assinatura.png" alt="">
+
+    </footer>
+
+
+    <script src="JS/script.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbypzRDwTzJNXH5RtGQkx-ONt5Pm1CE_h7pnBXojQ8Fx6ZIo7ZtsrGiD-T6_2P9HZqFV/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+    
+        form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => { 
+            msg.classList.add('msg')
+            msg.innerHTML = 'Thank you for your contact!!'
+            setTimeout(() => {
+                msg.classList.remove('msg')
+                msg.innerHTML = ''
+            }, 3000)
+            form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
